@@ -1,0 +1,138 @@
+<!DOCTYPE html> <!-- This declaration defines the document type and version of HTML -->
+<html lang="en"> <!-- This element is the root of the HTML document and specifies the language (English) -->
+
+<head>
+    <!-- The head element contains meta-information about the document, links to stylesheets, and the title -->
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document (UTF-8 for worldwide character support) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Ensures IE compatibility -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the site is mobile-friendly -->
+    <title>Your Unique Website Title</title> <!-- The title of your document shown in the browser's title bar or tab -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Google font link for Roboto -->
+    <style>
+        /* CSS starts here. This section defines the look and feel of the website. */
+
+        /* Custom CSS variables for easy color management */
+        :root {
+            --burnt-orange: #CC5500; /* A custom shade of orange */
+            --black: #333; /* A dark shade for text and other elements */
+            --light-gray: #f0f0f2; /* A light gray for background */
+        }
+
+        /* Global styles */
+        body {
+            font-family: 'Roboto', sans-serif; /* Sets the font for the entire page */
+            margin: 0; /* Resets default margin */
+            padding: 0; /* Resets default padding */
+            background-color: var(--light-gray); /* Sets the background color of the entire page */
+            color: var(--black); /* Sets the default text color */
+            line-height: 1.6; /* Controls space between lines of text */
+        }
+
+        /* Container for centering the content in the middle of the page */
+        .container {
+            max-width: 1200px; /* Maximum width of the content */
+            margin: 0 auto; /* Centers the content */
+            padding: 20px; /* Padding around the content */
+        }
+
+        /* Styling for the header */
+        header {
+            background: var(--burnt-orange); /* Background color */
+            color: var(--light-gray); /* Text color */
+            padding: 20px 0; /* Padding inside the header */
+            text-align: center; /* Centers the text inside the header */
+        }
+
+        /* Styling for all h1 elements (main headings) */
+        h1 {
+            font-size: 2.5em; /* Size of the font */
+            margin-bottom: 20px; /* Space after the heading */
+        }
+
+        /* Styling for all h2 elements (subheadings) */
+        h2 {
+            font-size: 1.8em; /* Size of the font */
+            color: var(--burnt-orange); /* Text color */
+            margin-bottom: 20px; /* Space after the heading */
+        }
+
+        /* Styling for all paragraph elements */
+        p {
+            font-size: 1.1em; /* Size of the font */
+            margin: 10px 0; /* Space before and after paragraphs */
+        }
+
+        /* Styling for all anchor (link) elements */
+        a {
+            color: var(--burnt-orange); /* Text color */
+            text-decoration: none; /* Removes underline from links */
+            transition: color 0.3s ease; /* Transition effect for color change */
+        }
+
+        /* Hover effect for links */
+        a:hover {
+            color: var(--black); /* Text color when hovered */
+        }
+
+        /* Styling for about, projects, and contact sections */
+        .about, .projects, .contact {
+            background: #ffffff; /* Background color */
+            padding: 20px; /* Padding inside the sections */
+            margin-bottom: 20px; /* Space after each section */
+            border-radius: 8px; /* Rounded corners for the sections */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Shadow effect for the sections */
+        }
+
+        /* Styling for buttons */
+        .button {
+            display: inline-block; /* Makes the link behave like a button */
+            padding: 10px 20px; /* Padding inside the button */
+            background-color: var(--burnt-orange); /* Background color */
+            color: var(--light-gray); /* Text color */
+            text-decoration: none; /* Removes underline */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s ease; /* Transition effect for background color change */
+        }
+
+        /* Hover effect for buttons */
+        .button:hover {
+            background-color: var(--black); /* Background color when hovered */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The body element contains the content of the document -->
+
+    <!-- Header section of the page -->
+    <header>
+        <div class="container">
+            <h1>Welcome to my Cloud Resume!</h1> <!-- Main title inside the header -->
+        </div>
+    </header>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- About section -->
+        <div class="about">
+            <h2>About Me</h2> <!-- Section title -->
+            <p>Introduce yourself or your organization here. Share your passion, values, and what makes you or your work unique.</p>
+            <a href="#more-about-me" class="button">Learn More About Me</a> <!-- Button with a link -->
+        </div>
+
+        <!-- Projects section -->
+        <div class="projects">
+            <h2>My Projects</h2> <!-- Section title -->
+            <p>Describe some of your work or projects here. Showcase what you have achieved and what you're proud of.</p>
+            <a href="http://example.com/project" target="_blank" class="button">View My Projects</a> <!-- Button with a link -->
+        </div>
+
+        <!-- Contact section -->
+        <div class="contact">
+            <h2>Contact</h2> <!-- Section title -->
+            <p>Provide contact information or a form for visitors to reach out to you. Make it easy and inviting for people to connect.</p>
+            <a href="mailto:jonny512@utexas.com" class="button">Email Me</a> <!-- Button with a link -->
+        </div>
+    </div>
+</body>
+</html>

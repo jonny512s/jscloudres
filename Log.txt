@@ -1,0 +1,62 @@
+Date: 1/5/24 
+Time: 1 hour
+What I worked on today: 
+    - Used HTML to write example landing page 
+    - Styled landing pase using CSS
+    - Hosted the website trough S3 static hosting
+What I will do next time: 
+    - Set up a custom domain name
+    - Set up cloud front and point it to custom domain
+    - Clean up my index.html file
+    - put it on gitlab
+
+
+
+Date: 1/6/24 
+Time: 2 hours
+What I worked on today: 
+    - Completely revamped HTML and CSS
+    - Set up: About me, Experience, Education, Projects
+    - Added Images to website
+    - Purchased domain name via AWS Route53
+    - Acquired SSL certificate 
+    - Set up cloudfront and HTTPS
+What I will do next time: 
+    - Work on the backend
+    -
+
+
+
+Date: 1/6/2024
+Time: 1 hour
+What I worked on today: 
+    - Setup DynamoDB table
+    - Write python lambda to read website view count and write it back to the table
+    - Set up IAM Roles and permisions
+What I will do next time: 
+    - Look into putting it on gitlab
+    - Display the view count on website
+    - 
+
+
+
+Date:  
+Time: 1 hour
+What I worked on today: 
+    -
+    -
+What I will do next time: 
+    - 
+    -
+
+
+
+
+Date:  
+Time: 1 hour
+What I worked on today: 
+    -
+    -
+What I will do next time: 
+    - 
+    -
