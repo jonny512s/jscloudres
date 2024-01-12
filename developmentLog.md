@@ -63,28 +63,118 @@
 
 -----
 
-### Date:  
-**Time Spent:**  
-**Progress:**
--
--
+### Date:  1/9/24
+**Time Spent:** 2 hours
+**Progress:** 
+- HTML layout and spacing for consistency
+- lambda function in AWS to get views value from DynamoDB
+- lambda function in AWS to put incremented views value to DynamoDB
+- Javascript code for the lambda trigger (API) when site is loaded
 **Struggles:**
--
--
+- Adjusting the margins to achieve desired layout
+- Website view count not displaying on website
 **Next Steps:**
--
+- Fix Website view count so that it properly displays on front end
 -
 
 -----
 
-### Date:  
-**Time Spent:**  
+### Date:  1/10/24
+**Time Spent:** 2 Hours
 **Progress:**
--
--
+- Added IAM permissions to lambda function to get and put data to DynamoDB table
+- Added DOMContentLoaded to JavaScript code to ensure fetched data from our lambda function is properly loaded
+- Fixed path issues for API script
 **Struggles:**
--
--
+- Spend all my time today debugging Website view count not displaying on website
 **Next Steps:**
+- work on Infrastructure as code
+- Add more HTML - Education subsections and Fun Facts section
+
+-----
+
+### Date:  1/11/24
+**Time Spent:** 3 Hours
+**Progress:**
+- Added a cache buster to Javascript code when fetching lambda response
+- Specified 'no-cache' in Javascript code
+- Exposed and allowed cache control headers to lambda function
+- configured max age for cached results to 1 second within lambda
+- Added messages to display status when fetching view count: 'Loading', 'Site View Count', and 'Could not load views'
+**Struggles:**
+- Debug why code working on live server but not when deployed
+- Encounted chaching issues that inhibited site from displaying dynamic data (live view website view count)
+- Caching issues persisted with safari only
+**Next Steps:**
+- work on Infrastructure as code
+- Add more HTML - Education subsections and Fun Facts section
+
+-----
+
+### Date:  1/12/24
+**Time Spent:** 3 Hours
+**Progress:**
+- 
+- 
+- 
+**Struggles:**
+- 
+**Next Steps:**
+- 
 -
+
+-----
+
+### Date: 
+**Time Spent:** 3 Hours
+**Progress:**
+- 
+- 
+- 
+**Struggles:**
+- 
+**Next Steps:**
+- 
+-
+
+-----
+
+### Date: 
+**Time Spent:** 3 Hours
+**Progress:**
+- 
+- 
+- 
+**Struggles:**
+- 
+**Next Steps:**
+- 
+-
+
+-----
+
+### Date: 
+**Time Spent:** 3 Hours
+**Progress:**
+- 
+- 
+- 
+**Struggles:**
+- 
+**Next Steps:**
+- 
+-
+
+-----
+
+### Date: 
+**Time Spent:** 3 Hours
+**Progress:**
+- 
+- 
+- 
+**Struggles:**
+- 
+**Next Steps:**
+- 
 -
