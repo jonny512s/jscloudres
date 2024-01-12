@@ -112,13 +112,14 @@
 -----
 
 ### Date:  1/12/24
-**Time Spent:** 3 Hours
+**Time Spent:** 1 Hours
 **Progress:**
-- 
-- 
-- 
+- Learning more about terraform 
+- setup terraform config with aws
+- Code for geting dynamoDB data, updating it and putting the data back in dynamoDB
+- iac for lambda and IAM role
 **Struggles:**
-- 
+- attempting to work trough iac with terraform to deploy lambda func
 **Next Steps:**
 - 
 -
