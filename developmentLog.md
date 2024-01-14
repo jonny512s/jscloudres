@@ -121,13 +121,26 @@
 **Struggles:**
 - attempting to work trough iac with terraform to deploy lambda func
 **Next Steps:**
+- Continue working with terraform
+- Touchup CSS and HTML to iprove UI
+
+-----
+
+### Date: 1/13/24
+**Time Spent:** 1 Hours
+**Progress:**
+- Touchup CSS and HTML to iprove UI
+- Development log
 - 
--
+**Struggles:**
+- 
+**Next Steps:**
+- IAC with terraform
 
 -----
 
 ### Date: 
-**Time Spent:** 3 Hours
+**Time Spent:** 1 Hours
 **Progress:**
 - 
 - 
@@ -141,7 +154,7 @@
 -----
 
 ### Date: 
-**Time Spent:** 3 Hours
+**Time Spent:** 1 Hours
 **Progress:**
 - 
 - 
@@ -155,21 +168,7 @@
 -----
 
 ### Date: 
-**Time Spent:** 3 Hours
-**Progress:**
-- 
-- 
-- 
-**Struggles:**
-- 
-**Next Steps:**
-- 
--
-
------
-
-### Date: 
-**Time Spent:** 3 Hours
+**Time Spent:** 1 Hours
 **Progress:**
 - 
 - 
