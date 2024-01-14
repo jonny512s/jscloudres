@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             const cacheBuster = new Date().getTime();
             let response = await fetch(`https://dtsbjqsswgfgzl6uvilaaljt4a0kukyo.lambda-url.us-east-1.on.aws/?${cacheBuster}`, {
                 headers: {
-                    'Cache-Control': 'no-cache'
+                    'cache-control': 'no-cache'
                 }
             });
 
