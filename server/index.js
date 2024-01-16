@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     async function updateCounter(attempt = 1) {
         try {
             const cacheBuster = new Date().getTime();
-            let response = await fetch(`https://dtsbjqsswgfgzl6uvilaaljt4a0kukyo.lambda-url.us-east-1.on.aws/?${cacheBuster}`, {
+            let response = await fetch(`https://dtsbjqsswgfgzl6uvilaaljt4a0kukyo.lambda-url.us-east-1.on.aws/${cacheBuster}`, {
                 headers: {
                     'cache-control': 'no-cache'
                 }
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             let data = await response.json();
             // Extracting the 'views' value from the response
-            counter.innerHTML = `Site View Count: ${data.views}`;
+            counter.innerHTML = `Site View Count: ${data}`;
         } catch (error) {
             counter.innerHTML = 'Could not load views'; // Error message if fetching fails
             console.error('Error fetching counter data:', error);
