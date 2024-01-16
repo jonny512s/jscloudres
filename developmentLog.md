@@ -139,24 +139,29 @@
 
 -----
 
-### Date: 
-**Time Spent:** 1 Hours
+### Date: 1/15/24
+**Time Spent:** 3 Hours
 **Progress:**
-- 
-- 
+- Finished working with terraform and was able to deploy a lambda function that assumes a role with necessary policies attached to it so that it can access my dynamoDB table to get and update data
+- Wrote the IAC to set up AWS resources (Policy, attach the policy to a role, Lambda URL and specifications)
+- Added AWS credential to terraform file 
+- Setup .gitigonare for secret credentials needed by terraform
 - 
 **Struggles:**
-- 
+- Spent time getting familiar with terraform and how to use it to create AWS resources properly
+- Debugging my IAC for lambda: forgot to include some vields, Incorrect Syntax
 **Next Steps:**
-- 
--
+- Debug 'total views' since its not appearing on website anymore
+- Clean up my code
+- Figure out how to build on my current work
+- Think about adding a headshot to first/landing page
 
 -----
 
-### Date: 
-**Time Spent:** 1 Hours
+### Date: 1/16/24
+**Time Spent:** 1 Hour
 **Progress:**
-- 
+- Updated images for projects section
 - 
 - 
 **Struggles:**
