@@ -83,8 +83,8 @@ resource "aws_lambda_function_url" "url1" {
     allow_credentials = true
     allow_origins     = ["*"]
     allow_methods     = ["*"]
-    allow_headers     = ["date", "keep-alive"]
-    expose_headers    = ["keep-alive", "date"]
+    allow_headers     = ["date", "keep-alive", "cache-control"]
+    expose_headers    = ["keep-alive", "date", "cache-control"]
     max_age           = 86400
   }
 }

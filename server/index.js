@@ -5,11 +5,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     async function updateCounter(attempt = 1) {
         try {
             const cacheBuster = new Date().getTime();
-            let response = await fetch(`https://vodcluk3rhvrk5xqsi5obehah40jrhlm.lambda-url.us-east-1.on.aws/${cacheBuster}`, {
-                headers: {
-                    'cache-control': 'no-cache'
-                }
-            });
+            let response = await fetch(`https://vodcluk3rhvrk5xqsi5obehah40jrhlm.lambda-url.us-east-1.on.aws/${cacheBuster}`);
 
             if (!response.ok && attempt < 3) { // If response is not OK and less than 3 attempts
                 setTimeout(() => updateCounter(attempt + 1), 2000); // Retry after 2 seconds
