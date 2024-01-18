@@ -1,7 +1,5 @@
-document.addEventListener('DOMContentLoaded', (event) => {
     const counter = document.querySelector(".counter-number");
     counter.innerHTML = 'Loading views...'; // Initial loading message
-
     async function updateCounter() {
         try {
             const cacheBuster = new Date().getTime();
@@ -14,4 +12,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
     updateCounter();
-});
