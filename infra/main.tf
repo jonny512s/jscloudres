@@ -54,7 +54,7 @@ resource "aws_iam_policy" "iam_policy_for_resume_project" {
 			      "dynamodb:GetItem",
             "dynamodb:PutItem"
           ],
-          "Resource" : "arn:aws:dynamodb:*:*:table/cloudResume"
+          "Resource" : "arn:aws:dynamodb:us-east-1:499358658525:table/cloudResume"
         },
       ]
   })
@@ -80,11 +80,11 @@ resource "aws_lambda_function_url" "url1" {
   authorization_type = "NONE"
 
   cors {
-    allow_credentials = true
+    allow_credentials = false
     allow_origins     = ["*"]
     allow_methods     = ["*"]
     allow_headers     = ["date", "keep-alive", "cache-control"]
     expose_headers    = ["keep-alive", "date", "cache-control"]
-    max_age           = 86400
+    max_age           = 1
   }
 }
