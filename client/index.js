@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             let data = await response.json();
             // Extracting the 'views' value from the response
-            counter.innerHTML = `Site View Count: ${data.views}`;
+            counter.innerHTML = `Site View Count: ${data}`;
         } catch (error) {
             counter.innerHTML = 'Could not load views'; // Error message if fetching fails
             console.error('Error fetching counter data:', error);
         }
     }
-        updateCounter();
-        });
+    updateCounter();
+});
