@@ -159,9 +159,33 @@
 -----
 
 ### Date: 1/16/24
-**Time Spent:** 1 Hour
+**Time Spent:** 3 Hour
 **Progress:**
 - Updated images for projects section
+- Tried many different configurations to fix my realtime Site View Count feature
+**Struggles:**
+- Issues with my realtime Site View Count feature working on live server but not production. Attempted to change data format is different ways. Made sure data was ready when site was loaded. Added "No caching headers" and TTL = 0.
+**Next Steps:**
+- realtime Site View Count feature 
+
+-----
+
+### Date: 1/18/24
+**Time Spent:** 2 Hours
+**Progress:**
+- Finally debuged realtime Site View Count feature and all its components. FIX: lambda API code was outside the directory that was getting deployed to AWS. So the api fetch call was never being called in deployment server. Hence why it worked in local server.
+- Education suction Icons updated
+- Formatting and adding more HTML 
+**Struggles:**
+- realtime Site View Count feature
+**Next Steps:**
+- Clean up 
+- Brainstrom additional features to add
+
+### Date: 
+**Time Spent:** 1 Hours
+**Progress:**
+- 
 - 
 - 
 **Struggles:**
@@ -169,8 +193,6 @@
 **Next Steps:**
 - 
 -
-
------
 
 ### Date: 
 **Time Spent:** 1 Hours
