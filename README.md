@@ -1,6 +1,6 @@
 ## Architecture
 
-![Architecture Diagram](./architecture.pdf)
+![Architecture Diagram](./architecture.png)
 
 **Full Tech Stack Used**:
 - Python

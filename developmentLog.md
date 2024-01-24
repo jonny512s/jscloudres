@@ -205,3 +205,28 @@
 **Next Steps:**
 - 
 -
+
+
+### Date: 
+**Time Spent:** 1 Hours
+**Progress:**
+- 
+- 
+- 
+**Struggles:**
+- 
+**Next Steps:**
+- 
+-
+
+### Date: 
+**Time Spent:** 1 Hours
+**Progress:**
+- 
+- 
+- 
+**Struggles:**
+- 
+**Next Steps:**
+- 
+-
