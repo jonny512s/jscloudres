@@ -2,7 +2,7 @@
 
 ![Architecture Diagram](./architecture.png)
 
-**Full Tech Stack Used**:
+**Full Project Tech Stack**:
 - Python
 - Terraform
 - GitHub Actions
@@ -12,8 +12,8 @@
 - AWS S3
 - AWS CloudFront
 - AWS Certificate Manager
-- GitHub Actions
-- Terraform
 - JavaScript
 - HTML
 - CSS
+
+[View Development Log](./developmentLog.md)

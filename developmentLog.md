@@ -182,45 +182,31 @@
 - Clean up 
 - Brainstrom additional features to add
 
-### Date: 
-**Time Spent:** 1 Hours
+### Date: 1/22/24
+**Time Spent:** 5 Hours
 **Progress:**
-- 
-- 
-- 
+- Created a Architecture diagram of my project
+- Learned about meta tags and attempted to implement them for an aesthetic link preview of my site
 **Struggles:**
-- 
+- Couldnt figure out why Metatags werent updating my link preview
 **Next Steps:**
-- 
--
+- Fix Metadata/metatags so that they appear properly
+- Clean up entire app to prepare to upload to linked in
 
-### Date: 
-**Time Spent:** 1 Hours
+### Date: 1/23/24
+**Time Spent:** 3 Hours
 **Progress:**
-- 
-- 
-- 
+- Correctly updated Metadata
+- Cleaned up Metadata and debugged
+- Added README 
 **Struggles:**
-- 
+- LinkedIn post inspector was not properly displaying my changes in real time. Fix: Just had to wait. Data took a while to propagate the changes 
 **Next Steps:**
-- 
--
-
+- Double check my UI and UX before sharing on LinkedIn
+-Brainstrom additional features to add
 
 ### Date: 
-**Time Spent:** 1 Hours
-**Progress:**
-- 
-- 
-- 
-**Struggles:**
-- 
-**Next Steps:**
-- 
--
-
-### Date: 
-**Time Spent:** 1 Hours
+**Time Spent:**
 **Progress:**
 - 
 - 
