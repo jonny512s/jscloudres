@@ -10,6 +10,7 @@
 - AWS DynamoDB
 - AWS Identity and Access Management (IAM)
 - AWS S3
+- AWS Route53
 - AWS CloudFront
 - AWS Certificate Manager
 - JavaScript
